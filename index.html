@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ToHELLwithyourCombi.com</title>
+</head>
+<body bgcolor="#f0f0f0">
+    <div style="text-align:center;">
+        <marquee behavior="scroll" direction="left">
+            Rap is Man's Soul! Believe in You'n the Restless Dude Showing the Sky, Kick Logic to the Curb! Listen With Ears Wide Open to the Theme of the Dai-Gurren Brigade!!  
+        </marquee>
+    </div>
+
+    <div style="text-align:center;">
+        <img id="giga-drill" src="giga-drill-break.gif" width="300" height="200">
+    </div>
+
+    <video id="explosion" src="explosion.mp4" style="display: none; width: 100%; height: auto;" onended="redirect()"></video>
+    <audio id="gurren-lagann-ost" autoplay loop>
+        <source src="rapisamanssoul.mp4" type="audio/mp4">
+    </audio>
+
+    <script type="text/javascript">
+        setTimeout(function() {
+            var gif = document.getElementById('giga-drill');
+            var explosion = document.getElementById('explosion');
+            gif.style.display = "none"; 
+            explosion.style.display = "block"; 
+            explosion.play();
+
+           
+            setTimeout(function() {
+                window.location.href = 'https://x.com/kamniina';
+            }, 3500);  
+        }, 7000);  
+    </script>
+</body>
+</html>
